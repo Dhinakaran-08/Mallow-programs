@@ -8,7 +8,7 @@ class Parent:
 class Child(Parent):
     def age(self):
         print("I am 30 years old")
-obj = Parent()
+obj = Child()
 obj.age()
 obj.hair()
 obj.eye()
