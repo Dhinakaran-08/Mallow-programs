@@ -1,5 +1,6 @@
 class Main:
-    def __init__(self,a,b):
-        self.sum = a+b
-m = Main(5,5)
-print(m.sum)
+    def sum(self,a,b):
+        add = a+b
+        return add
+m = Main()
+print(m.sum(5,5))
